@@ -1,0 +1,38 @@
+{
+  "name": "basic-webpack-babel",
+  "version": "1.0.0",
+  "description": "basic configuration including webpack and babel",
+  "repository": "git@github.com:lajeunesse/basic-webpack-babel.git",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-react": "^6.1.2",
+    "babel-runtime": "^6.0.14",
+    "express": "^4.13.3",
+    "react": "^0.14.2",
+    "react-addons-create-fragment": "^0.14.2",
+    "react-addons-pure-render-mixin": "^0.14.2",
+    "react-addons-transition-group": "^0.14.2",
+    "react-addons-update": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-tap-event-plugin": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.2",
+    "babel-eslint": "^4.1.4",
+    "babel-loader": "^6.1.0",
+    "eslint": "^1.9.0",
+    "eslint-plugin-react": "^3.8.0",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.3",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
